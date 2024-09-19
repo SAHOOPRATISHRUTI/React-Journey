@@ -39,6 +39,14 @@ function App() {
               Red
             </button>
 
+            <button  className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+            onClick={()=>setColor('purple')}
+            style={{backgroundColor:'purple'}}
+            >
+
+Purple
+              </button>
+
           </div>
         </div>
       </div>
